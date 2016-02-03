@@ -1,0 +1,284 @@
+1 DSynchronize (Programmed by Dimio)
+2 DSynchronize (Δημιουργήθηκε από τον Dimio)
+1 Sources
+2 Πηγές
+1 C:\Sample 1 Of Source Path
+2 C:\Δείγμα 1 διαδρομής προέλευσης
+1 C:\Sample 2 Of Source Path
+2 C:\Δείγμα 2 διαδρομής προέλευσης
+1 \\RemotePC\Sample 1 Of Destination Path
+2 \\ΑπομακρυσμένοPC\Δείγμα 1 διαδρομής προορισμού
+1 \\RemotePC\Sample 2 Of Destination Path
+2 \\ΑπομακρυσμένοPC\Δείγμα 2 διαδρομής προορισμού
+1 Destinations
+2 Προορισμοί
+1 Insert path and then press "Enter"
+2 Εισάγετε τη διαδρομή και στη συνέχεια πατήστε "Enter"
+1 Press "Enter" to modify the path, "DEL" to delete it, "PagUp" or "PagDn" to move it up or down
+2 Πατήστε "Enter" για τροποποίηση της διαδρομής, "DEL" για διαγραφή, "PagUp" ή "PagDn" για μετακίνηση επάνω ή κάτω
+1 Filter
+2 Φίλτρο
+1 DSynchronize Filter
+2 Φίλτρο DSynchronize
+1 Filter settings
+2 Ρυθμίσεις φίλτρου
+1 Do not apply filters to folders
+2 Μη εφαρμογή των φίλτρων σε φακέλους
+1 Exclusion filter
+2 Φίλτρο αποκλεισμού
+1 Inclusion filter
+2 Φίλτρο συμπερίληψης
+1 Do not include subfolders on synchronization
+2 Χωρίς υποφακέλους στο συγχρονισμό
+1 To use multiple filters you must separate them with ";", e.g. *.exe;*.txt;settings.ini;*.da?
+2 Στη χρήση πολλαπλών φίλτρων πρέπει να διαχωριστούν με ";", π.χ. *.exe;*.txt;settings.ini;*.da?
+1 Filter Extended
+2 Επέκταση φίλτρου
+1 Jan
+2 Ιαν
+1 Feb
+2 Φεβ
+1 Mar
+2 Μάρ
+1 Apr
+2 Απρ
+1 May
+2 Μάϊ
+1 Jun
+2 Ιούν
+1 Jul
+2 Ιούλ
+1 Aug
+2 Αύγ
+1 Sep
+2 Σεπ
+1 Oct
+2 Οκτ
+1 Nov
+2 Νοέ
+1 Dec
+2 Δεκ
+1 Exclude files modified before:
+2 Εξαίρεση αρχείων τροποποιημένων πριν:
+1 Ok
+2 Εντάξει
+1 Cancel
+2 ’κυρο
+1 Select a folder:
+2 Επιλέξτε έναν φάκελο:
+1 Browse
+2 Εύρεση
+1 &Add New...
+2 &Προσθήκη νέας
+1 B&rowse...
+2 Εύ&ρεση...
+1 &Edit...
+2 &Επεξεργασία...
+1 &Select all
+2 Επι&λογή όλων
+1 &Deselect all
+2 &Καμία επιλογή
+1 Se&t filter...
+2 Ορισμός &φίλτρου...
+1 S&wap paths
+2 &Αντιμετάθεση διαδρομών
+1 Re&move
+2 Κα&τάργηση
+1 About
+2 Περί...
+1 DSynchronize About
+2 Περί DSynchronize
+1 Support with a Donation
+2 Υποστήριξη με μια δωρεά
+1 Make a Donation
+2 Κάντε μια δωρεά
+1 General options
+2 Γενικές επιλογές
+1 Copy only newer files
+2 Αντιγραφή μόνο νεότερων
+1 Update files into destination folder only if source files are more recent
+2 Ενημέρωση αρχείων στο φάκελο προορισμού μόνο αν τα πηγαία αρχεία είναι πιο πρόσφατα
+1 Bidirectional synchronization
+2 Αμφίδρομος συγχρονισμός
+1 Syncronize folders using more recent files from both, you will obtain two equal folders with the more recent files of both
+2 Συγχρονισμός φακέλων χρησιμοποιώντας τα πιο πρόσφατα αρχεία και από τους δύο. Θα λάβετε δύο ίδιους φακέλους με τα πιο πρόσφατα αρχεία και των δύο.
+1 Add date to destination folder
+2 Προσθήκη ημερομηνίας
+1 Adds to the name of the destination folder current date and time (so "C:\Destination" becomes "C:\Destination 2004-12-10 22.30")
+2 Προσθέτει στο όνομα του φακέλου προορισμού την τρέχουσα ημερομηνία και ώρα (το "C: \Προορισμός" γίνεται "C: \Προορισμός 2004-12-10 22.30")
+1 Create folder if not exists
+2 Δημιουργία αν δεν υπάρχει
+1 If destination path does not exists it creates a new one
+2 Εάν η διαδρομή προορισμού δεν υπάρχει, θα δημιουργηθεί μια νέα
+1 Use old copy algorithm
+2 Χρήση παλιού αλγόριθμου
+1 Revert to use old copy algorithm (slow, but stable)
+2 Επιστροφή στη χρήση παλιού αλγόριθμου αντιγραφής (αργός, αλλά σταθερός)
+1 Preview mode
+2 Λειτουργία προεπισκόπησης
+1 Only preview (do not write anything on HD)
+2 Μόνο προεπισκόπηση (δεν εγγράφεται τίποτα στο HD)
+1 Exit at the end
+2 Έξοδος στο τέλος
+1 Closes the program at the end of sync
+2 Κλείνει το πρόγραμμα στο τέλος του συγχρονισμού
+1 Shutdown at the end
+2 Τερματισμός στο τέλος
+1 Shutdown the system at the end of sync
+2 Τερματίζει τον υπολογιστή στο τέλος του συγχρονισμού
+1 Save on exit
+2 Αποθήκευση στην έξοδο
+1 Saves all current settings on exit (source and destination path too)
+2 Αποθηκεύει όλες τις τρέχουσες ρυθμίσεις με την έξοδο (συν τις διαδρομές προέλευσης και προορισμού)
+1 Save log
+2 Αποθήκευση μητρώου
+1 Save log file
+2 Αποθηκεύει το αρχείο καταγραφής
+1 Play sound when done
+2 Ήχος στην ολοκλήρωση
+1 Generate a sound advise at the end of syncronization
+2 Παράγει ένα ήχο ειδοποίησης στο τέλος του συγχρονισμού
+1 Eject USB key at the end
+2 Εξαγωγή USB στο τέλος
+1 Special options
+2 Ειδικές επιλογές
+1 Antifragmentation
+2 Αντικατακερματ.
+1 Reduces disk fragmentation deleting files before replacing them (replaced files will appear as added)
+2 Μειώνει τον κατακερματισμό του δίσκου διαγράφοντας τα αρχεία πριν την αντικατάστασή τους (τα αρχεία που αντικαταστάθηκαν θα προστεθούν)
+1 Ignore path errors
+2 Αγν. λάθος διαδρ.
+1 If a path (source or destination) does not exists, skips it without any error message, ignore folder security check too
+2 Εάν μια διαδρομή (προέλευσης ή προορισμού) δεν υπάρχει, παραλείπεται χωρίς κανένα μήνυμα λάθους, αγνοώντας και τον έλεγχο ασφάλειας φακέλου
+1 Adjust path drive
+2 Ρύθμ. διαδ. δίσκου
+1 If drive letter changes, adjust paths accordingly
+2 Αν αλλάξει το γράμμα της μονάδας δίσκου, να προσαρμοστούν κι οι διαδρομές ανάλογα
+1 Backup changes
+2 Αντίγρ. ασφαλείας αλλαγών
+1 No Backup 
+2 Χωρίς αντίγρ. ασφαλ.
+1 Timer sync
+2 Προγραμ. συγχρονισμού
+1 Set/enable timer
+2 Ενεργοποίηση
+1 DSynchronize Options
+2 Επιλογές DSynchronize
+1 Timer choice
+2 Επιλογή χρονοδιακόπτη
+1 Synchronize every
+2 Συγχρονισμός κάθε
+1 Synchronize at
+2 Συγχρονισμός στις
+1 Hours
+2 Ώρες
+1 Minutes
+2 Λεπτά
+1 Days choice
+2 Επιλογή ημερών
+1 Synchronize every day
+2 Συγχρονισμός κάθε μέρα
+1 Specify the month's days on which to synchronize
+2 Καθορισμός των ημερών του μήνα κατά τις οποίες θα γίνεται συγχρονισμός
+1 Specify the week's days on which to synchronize
+2 Καθορισμός των ημερών της εβδομάδας κατά τις οποίες θα γίνεται συγχρονισμός
+1 Sunday
+2 Κυριακή
+1 Monday
+2 Δευτέρα
+1 Tuesday
+2 Τρίτη
+1 Wednesday
+2 Τετάρτη
+1 Thursday
+2 Πέμπτη
+1 Friday
+2 Παρασκ.
+1 Saturday
+2 Σάββατο
+1 Realtime sync
+2 Σε πραγμ. χρόνο
+1 Real-time syncronization (experimental)
+2 Συγχρονισμός σε πραγματικό χρόνο (σε πειραματικό στάδιο)
+1 Activation of the Real-Time Synchronization.
+2 Ενεργοποίηση του συγχρονισμού σε πραγματικό χρόνο.
+1 Autostart
+2 Αυτόμ. έναρξη
+1 Execute DSynchronize at system startup
+2 Εκτέλεση του DSynchronize με την εκκίνηση του συστήματος
+1 Autostart as service...
+2 Έναρξη ως υπηρεσία
+1 Execute DSyncronize at system startup as service
+2 Εκτέλεση του DSynchronize με την εκκίνηση του συστήματος ως υπηρεσία
+1 DSyncronize Start As Service
+2 Εκκίνηση του DSyncronize ως υπηρεσία
+1 Install Service
+2 Εγκατάσταση υπηρεσίας
+1 Start Service
+2 Έναρξη υπηρεσίας
+1 Account:
+2 Λογαρ/μός:
+1 Password:
+2 Κωδικός
+1 System Account
+2 Λογαρ. συστήμ.
+1 Done
+2 Ολοκληρώθηκε
+1 Commands
+2 Εντολές
+1 Synchronize
+2 Συγχρονισμός
+1 Pause
+2 Παύση
+1 Deleted files
+2 Διαγραφή αρχείων
+1 Ask before deleting files
+2 Ερώτηση για διαγραφή αρχείων
+1 Do not delete any file
+2 Χωρίς διαγραφή αρχείων
+1 Does not delete any file
+2 Δεν θα διαγραφεί κανένα αρχείο
+1 Move files
+2 Μετακίν. αρχείων
+1 Move files from Source to Destination
+2 Μετακίνηση αρχείων από την Προέλευση στον Προορισμό
+1 No visual log
+2 Χωρίς ορατό μητρώο
+1 Added files
+2 Προσθήκη αρχείων
+1 Ask before adding files
+2 Ερώτηση για προσθ. αρχείων
+1 Do not add any file
+2 Χωρίς προσθήκη αρχείων
+1 Does not add any new file
+2 Δεν θα προστεθεί κανένα αρχείο
+1 Replaced files
+2 Αντικατάσταση αρχείων
+1 Ask before replacing files
+2 Ερώτηση για αντικατάσταση
+1 Do not replace any file
+2 Χωρίς αντικατάσταση
+1 Does not replace any file
+2 Δεν θα αντικατασταθεί κανένα αρχείο
+1 Synchronization complete.
+2 Ο συγχρονισμός ολοκληρώθηκε.
+1 File Copy Algorithm 1 (Stable)
+2 Αλγόριθμος αντιγραφής αρχείων 1 (σταθερός)
+1 DSynchronize
+2 DSynchronize
+1 Activation of the Real-Time Synchronisation.
+2 Ενεργοποίηση του συγχρονισμού σε πραγματικό χρόνο.
+1 Make sure to let a "normal" sync take place first before enabling the "Real-Time sync".
+2 Φροντίστε να αφήσετε πρώτα να πραγματοποιηθεί ένας κανονικός συγχρονισμός πριν ενεργοποιήσετε το Συγχρονισμό σε πραγματικό χρόνο. 
+1 Help
+2 Βοήθεια
+1 Show
+2 Εμφάνιση
+1 Close
+2 Κλείσιμο
+1 DSynchronize Warning
+2 Προειδοποίηση του DSynchronize
+1 Another istance of "DSynchronize.exe" is running, press OK to exit.
+2 Μια άλλη συνεδρία του DSynchronize.exe βρίσκεται σε λειτουργία. Πατήστε OK για έξοδο.
+1 home page:
+2 Ιστοσελίδα

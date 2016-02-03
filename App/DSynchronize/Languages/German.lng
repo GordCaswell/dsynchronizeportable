@@ -1,0 +1,280 @@
+1 DSynchronize (Programmed by Dimio)
+2 DSynchronize (Programmiert von Dimio)
+1 Sources
+2 Quellpfade
+1 C:\Sample 1 Of Source Path
+2 C:\Beispiel 1 des Quellpfades
+1 C:\Sample 2 Of Source Path
+2 C:\Beispiel 2 des Quellpfades
+1 \\RemotePC\Sample 1 Of Destination Path
+2 \\RemotePC\Beispiel 1 des Zielpfades
+1 \\RemotePC\Sample 2 Of Destination Path
+2 \\RemotePC\Beispiel 2 des Zielpfades
+1 Destinations
+2 Zielpfade
+1 Insert path and then press "Enter"
+2 Pfad eingeben und "Enter" drücken
+1 Press "Enter" to modify the path, "DEL" to delete it, "PagUp" or "PagDn" to move it up or down
+2 "Enter" zum Ändern des Pfades, "Entf" zum Löschen, "Seite aufwärts" oder "Seite abwärts" um Pfad auf oder ab zu bewegen
+1 Filter
+2 Filter
+1 DSynchronize Filter
+2 DSynchronize Filter
+1 Filter settings
+2 Filter Einstellungen
+1 Do not apply filters to folders
+2 Keine Filter auf Ordner anwenden.
+1 Exclusion filter
+2 Ausnahmefilter
+1 Inclusion filter
+2 Einbeziehungsfilter
+1 Do not include subfolders on synchronization
+2 Keine Unterordner bei der Synchronisation
+1 To use multiple filters you must separate them with ";", e.g. *.exe;*.txt;settings.ini;*.da?
+2 Um mehrere Filter zu verwenden müssen diese mit ";" getrennt werden. (z.B. *.exe;*.txt;settings.ini;*.da?)
+1 Filter Extended
+2 Erweiterter Filter
+1 Jan
+2 Jan
+1 Feb
+2 Feb
+1 Mar
+2 Mär
+1 April
+2 April
+1 May
+2 Mai
+1 Jun
+2 Jun
+1 Jul
+2 Jul
+1 Aug
+2 Aug
+1 Sep
+2 Sep
+1 Oct
+2 Okt
+1 Nov
+2 Nov
+1 Dec
+2 Dez
+1 Exclude files modified before:
+2 Ignoriere Dateien, die geändert wurden vor:
+1 Cancel
+2 Abbrechen
+1 Select a folder:
+2 Ordner auswählen:
+1 Browse
+2 Suchen
+1 &Add New...
+2 &Neu hinzufügen...
+1 B&rowse...
+2 &Anzeigen...
+1 &Edit...
+2 &Bearbeiten...
+1 &Select all
+2 &Alles auswählen
+1 &Deselect all
+2 &Alles abwählen
+1 Se&t filter...
+2 Setze &Filter...
+1 S&wap paths
+2 Tausche &Pfade
+1 Re&move
+2 &Entfernen
+1 About
+2 Über...
+1 DSynchronize About
+2 Über DSynchronize
+1 Support with a Donation
+2 Unterstützung per Spende
+1 Make a Donation
+2 Spenden
+1 General options
+2 Optionen
+1 Copy only newer files
+2 nur neuere Daten kopieren
+1 Update files into destination folder only if source files are more recent
+2 Nur neuere Quelldateien im Zielpfad ersetzen
+1 Bidirectional synchronization
+2 Beidseitige Synchronisation
+1 Syncronize folders using more recent files from both, you will obtain two equal folders with the more recent files of both
+2 Synchronisierung von Ordnern mit jeweils aktuelleren Dateien (Ergebnis: 2 gleiche Ordner mit den aktuellsten Dateien aus beiden)
+1 Add date to destination folder
+2 Datum dem Ziel hinzufügen
+1 Adds to the name of the destination folder current date and time (so "C:\Destination" becomes "C:\Destination 2004-12-10 22.30")
+2 Fügt dem Namen des Zielordners die aktuelle Zeit und das Datum hinzu (aus "C:\Quelle" wird "C:\Quelle 2004-12-10 22.30")
+1 Create folder if not exists
+2 neue Ordner erstellen
+1 If destination path does not exists it creates a new one
+2 Falls der Zielpfad nicht existiert, wird er erstellt
+1 Move files to destination
+2 Dateien zum Ziel verschieben
+1 Move files from Source to Destination (and NOT delete any file on Destination)
+2 Dateien vom Quellpfad zum Zielpfad verschieben, ohne Dateien im Ziel zu löschen
+1 Save file timings too
+2 Dateizeitangaben sichern
+1 Copy creation and last modify time too
+2 Erstell- und Änderungsdatum mitkopieren
+1 Preview mode
+2 Vorschaumodus
+1 test sync (do not write anything on HD)
+2 Testlauf (schreibt nicht auf die Festplatte)
+1 Exit at the end
+2 Programmende
+1 Closes the program at the end of sync
+2 Beendet das Programm nach der Synchronisation
+1 Shutdown PC at the end
+2 PC herunterfahren
+1 Shutdown the system at the end of sync
+2 Fährt das System nach der Synchronisation runter
+1 Save settings on exit
+2 Sichere Einstellungen
+1 Saves all current settings on exit (source and destination path too)
+2 Speichert alle aktuellen Einstellungen (inklusive Quell- und Zielpfad)
+1 Write log on disk
+2 Logfile speichern
+1 Save log file "DSynchronize.log" on disk
+2 Speichert das Logfile "DSynchronize.log"
+1 Send log by Email
+2 log per mail senden
+1 Play sound at the end
+2 Tonhinweis am Ende
+1 Generate a sound advise at the end of syncronization
+2 akustischer Hinweis nach der Synchronisation
+1 Eject USB key at the end
+2 USB am Ende auswerfen
+1 Special options
+2 Zusätzliche Option
+1 Antifragmentation
+2 Defragmentierung
+1 Reduces disk fragmentation deleting files before replacing them (replaced files will appear as added)
+2 Reduziert die Festplattenfragmentierung ducrh Löschen von Dateien vor dem Ersetzen (ersetzte Dateien erscheinen als hinzugefügt)
+1 Ignore path errors
+2 Pfadfehler ignorieren
+1 If a path (source or destination) does not exists, skips it without any error message, ignore folder security check too
+2 Wenn ein Pfad (Quelle oder Ziel) nicht existiert, wird er ohne Fehlermeldung und Sicherheitsabfrage ausgelassen
+1 Adjust path drive
+2 Laufwerk anpassen
+1 If drive letter changes, adjust paths accordingly (please, select "Save on exit" option to allow saving volume serials)
+2 Wenn sich der Laufwerksbuchstabe verändert hat, neuen Pfad verwenden (Bitte "Sichern am Ende" Option auswählen!")
+1 Verify
+2 Ergebnis Überprüfen
+1 Verify copy (can slow down sync)
+2 Kopierergebnis überprüfen (kann Backup verlangsamen!)
+1 Backup changes
+2 Sicherheitsbackup
+1 No Backup
+2 kein Backup
+1 Timer sync
+2 Timer Synchronisation
+1 Set/enable timer
+2 Timer setzen...
+1 DSynchronize Options
+2 DSynchronize Optionen
+1 Timer choice
+2 Timer Auswahl
+1 Synchronize every
+2 Synchronisiere alle
+1 Synchronize at
+2 Synchronisiere um
+1 Days choice
+2 Tagauswahl
+1 Synchronize every day
+2 Synchronisiere jeden Tag
+1 Specify the month's days on which to synchronize
+2 Definiere die Tage des Monats an denen synchronisiert werden soll
+1 Specify the week's days on which to synchronize
+2 Definiere die Wochentage an denen Synchronisiert werden soll
+1 Sunday
+2 Sonntag
+1 Monday
+2 Montag
+1 Tuesday
+2 Dienstag
+1 Wednesday
+2 Mittwoch
+1 Thursday
+2 Donnerstag
+1 Friday
+2 Freitag
+1 Saturday
+2 Samstag
+1 Realtime sync
+2 Echtzeit Sync.
+1 Real-time syncronization (experimental)
+2 Echtzeitsynchronisation (experimentell)
+1 Activation of the Real-Time Synchronization
+2 Aktivierung der Echtzeitsynchronisation
+1 Execute DSynchronize at system startup
+2 DSyncronize beim Systemstart ausführen
+1 Autostart
+2 Autostart
+1 Autostart as service...
+2 Autostart als Dienst...
+1 Execute DSyncronize at system startup as service
+2 DSyncronize beim Systemstart als Dienst ausführen
+1 DSyncronize Start As Service
+2 DSyncronize startet als Dienst
+1 Install Service
+2 Dienst installieren
+1 Start Service
+2 Dienst starten
+1 Done
+2 Fertig
+1 Commands
+2 Befehle
+1 Synchronize
+2 Synchronisieren
+1 Pause
+2 Pause
+1 Deleted files
+2 Dateien löschen
+1 Ask before deleting files
+2 Bestätige Löschen von Dateien
+1 Do not delete any file
+2 Lösche keine Dateien
+1 Does not delete any file
+2 Löscht keine Datei
+1 Move files
+2 Verschiebe Dateien
+1 Move files from Source to Destination
+2 Verschiebt die Dateien von der Quelle zum Ziel
+1 No visual log
+2 Log nicht Anzeigen
+1 Added files
+2 Dateien hinzufügen
+1 Ask before adding files
+2 Bestätige Hinzufügen von Dateien
+1 Do not add any file
+2 Füge keine Dateien hinzu
+1 Does not add any new file
+2 Fügt keine Dateien hinzu
+1 Replaced files
+2 Dateien ersetzen
+1 Ask before replacing files
+2 Bestätige Ersetzen von Dateien
+1 Do not replace any file
+2 Keine Dateien ersetzen
+1 Does not replace any file
+2 Ersetzt keine Dateien
+1 Synchronization complete
+2 Synchronisation beendet
+1 Help
+2 Hilfe
+1 Show
+2 Zeigen
+1 Close
+2 Beenden
+1 Test paths existence
+2 Testen ob Pfad existiert
+1 Log Email Settings
+2 mail Einstellungen Log
+1 Send To:
+2 An:
+1 Email Sender:
+2 Von:
+1 Password:
+2 Passwort:
+1 Create, in destination path, n folders with name of file and date of sync to contain different versions of every file
+2 erstellt im Zielpfad Verzeichninsse mit dem Datum der Synchronisation, diese bleiben bei der nächsten Synchronisation als alte Version erhalten

@@ -1,0 +1,240 @@
+1 DSynchronize (Programmed by Dimio)
+2 DSynchronize (Program autorstwa Dimio)
+1 Sources
+2 èrÛd≥o
+1 C:\Sample 1 Of Source Path
+2 C:\Przyk≥ad úcieøki ürÛd≥owej nr 1
+1 C:\Sample 2 Of Source Path
+2 C:\Przyk≥ad úcieøki ürÛd≥owej nr 2
+1 \\RemotePC\Sample 1 Of Destination Path
+2 \\ZdalnyPC\Przyk≥ad úcieøki docelowej nr 1
+1 \\RemotePC\Sample 2 Of Destination Path
+2 \\ZdalnyPC\Przyk≥ad úcieøki docelowej nr 2
+1 Destinations
+2 Cel
+1 Insert path and then press "Enter"
+2 Wpisz úcieøkÍ i naciúnij "Enter"
+1 Press "Enter" to modify the path, "DEL" to delete it, "PagUp" or "PagDn" to move it up or down
+2 Naciúniej "Enter", øeby zmodyfikowaÊ úcieøkÍ, "DEL", øeby skasowaÊ, "PageUp" i "PageDown" by przemiszczaÊ w gÛrÍ lub w dÛ≥
+1 Filter
+2 Filtr
+1 DSynchronize Filter
+2 DSynchronize Filtr
+1 Filter settings
+2 Ustawienia filtra
+1 Do not apply filters to folders
+2 Nie uøywaÊ filtrÛw do folderÛw
+1 Exclusion filter
+2 WykluczyÊ z filtra
+1 Inclusion filter
+2 W≥πczyÊ do filtra
+1 Do not include subfolders on synchronization
+2 Nie uwzglÍdniaÊ podfolderÛw
+1 To use multiple filters you must separate them with ";", e.g. *.exe;*.txt;settings.ini;*.da?
+2 Øeby uøyÊ z≥oøonych filtrÛw zastosuj separator ";", np. *.exe;*.txt;settings.ini;*.da?
+1 Filter Extended
+2 Filtr dodatkowy
+1 Jan
+2 Sty
+1 May
+2 Maj
+1 Jun
+2 Czer
+1 Jul
+2 Lip
+1 Aug
+2 Srpen
+1 Sep
+2 Z·¯Ì
+1 Oct
+2 ÿÌjen
+1 Dec
+2 Gru
+1 Exclude files modified before:
+2 Nie kopiowaÊ plikÛw modyfikowanych przed:
+1 Cancel
+2 Zrezygnuj
+1 Select a folder:
+2 Wybierz folder:
+1 Browse
+2 Przeglπdaj
+1 &Add New...
+2 &Dodaj nowy...
+1 B&rowse...
+2 &Przeglπdaj...
+1 &Edit...
+2 &Edycja...
+1 &Select all
+2 &Zaznacz wszystko
+1 &Deselect all
+2 &Odznacz wszystko
+1 Se&t filter...
+2 &Ustawienia filtra...
+1 S&wap paths
+2 &ZamieÒ úcieøki miejscami
+1 Re&move
+2 U&suÒ
+1 About
+2 O...
+1 DSynchronize About
+2 O programie DSynchronize
+1 Support with a Donation
+2 Poparcie (wsparcie) z darowiznπ
+1 Make a Donation
+2 ZrÛb darowiznÍ
+1 General options
+2 G≥Ûwne opcje
+1 Copy only newer files
+2 KopiowaÊ tylko nowe pliki
+1 Update files into destination folder only if source files are more recent
+2 AktualizowaÊ pliki (w docelowym folderze) tylko gdy sπ nowsze
+1 Bidirectional synchronization
+2 Synchronizacja dwukierunkowa
+1 Syncronize folders using more recent files from both, you will obtain two equal folders with the more recent files of both
+2 Synchronizacja folderÛw z uwzglÍnieniem najnowszych plikÛw, po synchronizaci otrymasz dwa foldery z aktualnymi plikami
+1 Add date to destination folder
+2 Dodaj datÍ do docelowego folderu
+1 Adds to the name of the destination folder current date and time (so "C:\Destination" becomes "C:\Destination 2004-12-10 22.30")
+2 Dodaj nazwÍ do foderu z aktualnπ datπ i czasem (np. "C:\Destination" otrzymuje "C:\Destination 2004-12-10 22.30")
+1 Create folder if not exists
+2 UtworzyÊ folder jeúli nie istnieje
+1 If destination path does not exists it creates a new one
+2 Jeúli docelowa úcieøka nie istnieje, to jπ utworzyÊ
+1 Preview mode
+2 Tryb podglπdu
+1 Only preview (do not write anything on HD)
+2 Tylko podglπd synchronizacji (dane nie bÍdπ zapisywane)
+1 Exit at the end
+2 ZamknπÊ po zakoÒczeniu
+1 Closes the program at the end of sync
+2 ZamknπÊ program po zakoÒczonej synchronizacji
+1 Shutdown at the end
+2 Wy≥πczyÊ komputer
+1 Shutdown the system at the end of sync
+2 Wy≥πczy komputer po zakoÒczonej synchronizacji
+1 Save on exit
+2 Wyjúcie z zapisem
+1 Saves all current settings on exit (source and destination path too)
+2 ZapisaÊ wszystkie ustawienia przed wyjúciem (rÛwnieø úcieøki ürÛd≥owe i docelowe)
+1 Save log
+2 Zapisz LOG
+1 Save log file
+2 Zapisze plik LOG
+1 Play sound when done
+2 Sygna≥ düwiÍkowy
+1 Generate a sound advise at the end of syncronization
+2 Wygeneruje düwiÍk po zakoÒczonej synchronizacji
+1 Special options
+2 Opcje specjalne
+1 Antifragmentation
+2 Antyfragmentacja
+1 Reduces disk fragmentation deleting files before replacing them (replaced files will appear as added)
+2 Redukuje fragmentacjÍ dysku poprzez kasowanie plikÛw przed ich zamianπ
+1 Set idle priority
+2 Ustaw nÌski priorytet
+1 Ignore path errors
+2 IgnorowaÊ b≥Ídne úcieøki
+1 If a path (source or destination) does not exists it skips without any error message
+2 Jeúli úcieøka dostÍpu (ürÛd≥o lub cel) nie istnieje to kontynuuje bez jakiegokolwiek komunikatu o b≥Ídzie
+1 Backup changes
+2 Liczba kopii bezpieczeÒstwa
+1 No Backup
+2 Bez kopii
+1 Timer sync
+2 Planowanie
+1 Set/enable timer
+2 Ustawienia harmonogramu...
+1 DSynchronize Options
+2 Opcje DSynchronize 
+1 Timer choice
+2 Ustawienia (zmiana) czasu
+1 Synchronize every
+2 Synchronizuj co
+1 Synchronize at
+2 Synchronizuj o
+1 Days choice
+2 WybÛr dnia
+1 Synchronize every day
+2 Synchronizuj codziennie
+1 Specify the month's days on which to synchronize
+2 Wybrane dni w miesiπcu
+1 Specify the week's days on which to synchronize
+2 Wybrane dni w tygodniu
+1 Sunday
+2 Niedziela
+1 Monday
+2 Pon
+1 Tuesday
+2 Wtorek
+1 Wednesday
+2 åroda
+1 Thursday
+2 Czwartek
+1 Friday
+2 Piπtek
+1 Saturday
+2 Sobota
+1 Realtime sync
+2 W czasie rzeczywistym
+1 Real-time syncronization (experimental)
+2 Synchronizacja w czasie rzeczywistym (eksperymentalna)
+1 Autostart
+2 Autostart
+1 Activation of the Real-Time Synchronization.
+2 Aktywacja synchronizacji w czasie rzeczywistym
+1 Execute DSynchronize at system startup
+2 Uruchom synchronizacjÍ przy starcie systemu
+1 Autostart as service...
+2 Uruchom jako serwis...
+1 Execute DSyncronize at system startup as service
+2 Uruchom DSyncronize przy starcie systemu jako serwis
+1 DSyncronize Start As Service
+2 Uruchom DSyncronize jako serwis
+1 Install Service
+2 Zainstaluj serwis
+1 Start Service
+2 Uruchom serwis
+1 Done
+2 Gotowe
+1 Commands
+2 Polecenia
+1 Synchronize
+2 Synchronizuj
+1 Pause
+2 Wstrzymaj
+1 Deleted files
+2 Kasowane pliki
+1 Ask before deleting files
+2 Pytaj przed kasowaniem plikÛw
+1 Do not delete any file
+2 Nie kasowaÊ øadnych plikÛw
+1 Does not delete any file
+2 Nie kasuje podczas synchronizacji øadnych plikÛw
+1 Move files
+2 Przenieú pliki
+1 Move files from Source to Destination
+2 Przenosi pliki ze ürÛd≥a do celu
+1 Added files
+2 Dodawane pliki
+1 Ask before adding files
+2 Pytaj przed dodaniem plikÛw
+1 Do not add any file
+2 Nie dodawaÊ øadnych plikÛw
+1 Does not add any new file
+2 Nie dodaje øadnych plikÛw
+1 Replaced files
+2 Nadpisywane pliki
+1 Ask before replacing files
+2 Pytaj przez zamianπ plikÛw
+1 Do not replace any file
+2 Nie pytaÊ o zamianÍ plikÛw
+1 Does not replace any file
+2 Nie zamienia øadnych plikÛw przy synchronizacji
+1 Synchronization complete.
+2 Koniec synchronizacji
+1 Help
+2 Pomoc
+1 Show
+2 PrzywrÛÊ
+1 Close
+2 Zamknij

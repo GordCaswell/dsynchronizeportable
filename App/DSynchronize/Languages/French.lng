@@ -1,0 +1,260 @@
+1 DSynchronize (Programmed by Dimio)
+2 DSynchronise (Réalisé par Dimio)
+1 Sources
+2 Sources
+1 C:\Sample 1 Of Source Path
+2 C:\Exemple 1 de fichier Source
+1 C:\Sample 2 Of Source Path
+2 C:\Exemple 2 de fichier Source
+1 \\RemotePC\Sample 1 Of Destination Path
+2 \\Unité amovible\Exemple 1 de fichier Destination
+1 \\RemotePC\Sample 2 Of Destination Path
+2 \\PCdistant\Exemple 2 de fichier Destination
+1 Destinations
+2 Destinations
+1 Insert path and then press "Enter"
+2 Taper le chemin puis presser "Enter"
+1 Press "Enter" to modify the path, "DEL" to delete it, "PagUp" or "PagDn" to move it up or down
+2 Presser "Enter" pour modifier le chemin, "DEL" pour l'effacer,"PgUp" ou "PgDn" pour le déplacer dessus ou dessous
+1 Filter
+2 Filtre
+1 DSynchronize Filter
+2 Filtre de Dsynchronize
+1 Filter settings
+2 Paramètres du filtre
+1 Do not apply filters to folders
+2 Ne pas appliquer les filtres au dossiers
+1 Exclusion filter
+2 Filtre d'exclusion
+1 Inclusion filter
+2 Filtre d'inclusion
+1 Do not include subfolders on synchronization
+2 Ne pas inclure de sous-dossiers à la synchro
+1 To use multiple filters you must separate them with ";", e.g. *.exe;*.txt;settings.ini;*.da?
+2 Pour utiliser plusieurs filtres séparez-les avec ";", e.g. *.exe;*.txt;settings.ini;*.da?
+1 Filter Extended
+2 Filtre externe
+1 Jan
+2 Jan
+1 Feb
+2 Fev
+1 Mar
+2 Mar
+1 Apr
+2 Avr
+1 May
+2 Mai
+1 Jun
+2 Jun
+1 Jul
+2 Jut
+1 Aug
+2 Aou
+1 Sep
+2 Sep
+1 Oct
+2 Oct
+1 Dec
+2 Dec
+1 Exclude files modified before:
+2 Exclure fichiers modifiés depuis:
+1 Cancel
+2 Annuler
+1 Select a folder:
+2 Sélectionner un dossier:
+1 Browse
+2 Explorer
+1 &Add New...
+2 &Ajouter nouveau…
+1 B&rowse...
+2 &Explorer…
+1 &Edit...
+2 &Éditer…
+1 &Select all
+2 &Tout sélectioner
+1 &Deselect all
+2 Tout &désélectioner
+1 Se&t filter...
+2 Réglerle filtre
+1 S&wap paths
+2 &Basculer chemins
+1 Re&move
+2 &Redéplacer
+1 About
+2 Sur...
+1 DSynchronize About
+2 À propos de ...
+1 Support with a Donation
+2 Soutenir par un don
+1 Make a Donation
+2 Faire un don
+1 General options
+2 Options générales
+1 Copy only newer files
+2 Copier que si nouveau
+1 Update files into destination folder only if source files are more recent
+2 Ne copier dans fichier Destination que si le fichier source est plus récent
+1 Bidirectional synchronization
+2 Synchro bidirectionelle
+1 Syncronize folders using more recent files from both, you will obtain two equal folders with the more recent files of both
+2 Synchroniserles fichiers selon les plus récents de chaque coté : vous aurez deux dossiers avec les plus récents de chacun
+1 Add date to destination folder
+2 Dater le dossier Destination
+1 Adds to the name of the destination folder current date and time (so "C:\Destination" becomes "C:\Destination 2004-12-10 22.30")
+2 Ajouter la date et l'heure au nom du dossier Destination (par exemple "C:\Destination" devient "C\Destination 2008-02-14 1.18")
+1 Create folder if not exists
+2 Créer dossier s'il n'existe
+1 If destination path does not exists it creates a new one
+2 Si le chemin de destination n'existe pas en créer un
+1 Preview mode
+2 Prévisualisation
+1 Only preview (do not write anything on HD)
+2 Prévisualiser seulement (sans écrire)
+1 Exit at the end
+2 Quitter à la fin
+1 Closes the program at the end of sync
+2 Clore en fin de synchronisation
+1 Shutdown at the end
+2 Éteindre en quittant
+1 Shutdown the system at the end of sync
+2 Éteindre la machine en fin de synchro
+1 Save on exit
+2 Sauver et quitter
+1 Saves all current settings on exit (source and destination path too)
+2 Sauver tous les paramètres en quittant (sources et destination aussi)
+1 Save log
+2 Sauver le rapport
+1 Save log file
+2 Sauver le rapport de log
+1 Play sound when done
+2 Jouer son quand fini
+1 Generate a sound advise at the end of syncronization
+2 Jouer un son pour avertir en fin de synchronisation
+1 Special options
+2 Options spéciales
+1 Antifragmentation
+2 Antifragmentation
+1 Reduces disk fragmentation deleting files before replacing them (replaced files will appear as added)
+2 Réduire la fragmentation du disque en effaçant les fichiers avant de les réécrire (les fichiers réécrits apparaissent comme ajoutés)
+1 Ignore path errors
+2 Ignorer erreur path
+1 If a path (source or destination) does not exists, skips it without any error message, ignore folder security check too
+2 Si un chemin (source ou destination) n'existe pas, il sera ignoré et sans message d'erreur
+1 If drive letter changes, adjust paths accordingly
+2 Si la lettre du disque change, le chemin sera adapté
+1 Backup changes
+2 Copies de sécurité
+1 No Backup
+2 Pas de copie
+1 Timer sync
+2 Choix de synchronisation
+1 Set/enable timer
+2 Réglage chrono
+1 DSynchronize Options
+2 Options de Dsynchronise
+1 Timer choice
+2 Choix du minuteur
+1 Synchronize every
+2 Synchroniser chaque
+1 Synchronize at
+2 Synchroniser à
+1 Days choice
+2 Choix du jour
+1 Synchronize every day
+2 Synchroniser chaque jour
+1 Specify the month's days on which to synchronize
+2 Spécifier le jour du mois pour la synchronisation
+1 Specify the week's days on which to synchronize
+2 Spécifier le jour de la semaine pour la synchronisation
+1 Sunday
+2 Dimanche
+1 Monday
+2 Lundi
+1 Tuesday
+2 Mardi
+1 Wednesday
+2 Mercredi
+1 Thursday
+2 Jeudi
+1 Friday
+2 Vendredi
+1 Saturday
+2 Samedi
+1 Realtime sync
+2 Synchro directe
+1 Real-time syncronization (experimental)
+2 Synchronisation en temps réel (expérimentale)
+1 Activation of the Real-Time Synchronization.
+2 Activation de la synchronisation en temps réel.
+1 Execute DSynchronize at system startup
+2 Exécuter DSynchronise au démarrage
+1 Autostart as service...
+2 Service automatique
+1 Execute DSyncronize at system startup as service
+2 Exécuter Dsynchronise au démarrage comme service
+1 DSyncronize Start As Service
+2 DSynchronise démarre comme service
+1 Install Service
+2 Installer Service
+1 Start Service
+2 Démarrer service
+1 Done
+2 Terminé
+1 Commands
+2 Commandes
+1 Synchronize
+2 Synchroniser
+1 Pause
+2 Pause
+1 Deleted files
+2 Effacer les fichiers
+1 Ask before deleting files
+2 Demander avant d'effacer
+1 Do not delete any file
+2 Ne pas effacer de fichiers
+1 Does not delete any file
+2 Ne pas effacer de fichiers
+1 Move files
+2 Déplacer les fichiers
+1 Move files from Source to Destination
+2 Déplacer fichiers Source vers Destination
+1 Added files
+2 Ajout de fichiers
+1 Ask before adding files
+2 Demander avant d'ajouter
+1 Do not add any file
+2 Ne pas ajouter de fichier
+1 Does not add any new file
+2 Ne pas ajouter de nouveau fichier
+1 Replaced files
+2 Remplacement de fichiers
+1 Ask before replacing files
+2 Demander avant de remplacer
+1 Do not replace any file
+2 Ne remplacer aucun fichier
+1 Does not replace any file
+2 Ne remplacer aucun fichier
+1 Synchronization complete.
+2 Synchronisation complète.
+1 DSynchronize
+2 DSynchronize
+1 Activation of the Real-Time Synchronisation.
+2 Activation de la synchronisation directe.
+1 Make sure to let a "normal" sync take place first before enabling the "Real-Time sync".
+2 Vérifier d'avoir effectué une synchro "normale" avant de lancer la "sunchro directe". 
+1 Help
+2 Aide
+1 Show
+2 Montrer
+1 Close
+2 Fermer
+1 Save file timings too
+2 Sauver les dates
+1 Eject USB key at the end
+2 Ejecter la clé USB à la fin
+1 Adjust path drive
+2 Ajuster le chemin
+1 No visual log
+2 Ne pas afficher le log
+1 Copy creation and last modify time too
+2 Copier également les heures de création et de dernière modification
