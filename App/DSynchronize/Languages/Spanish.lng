@@ -1,5 +1,5 @@
 1 DSynchronize (Programmed by Dimio)
-2 DSynchronize (Programado por Dimio)
+2 DSynchronize
 1 Sources
 2 Origen
 1 C:\Sample 1 Of Source Path
@@ -85,7 +85,7 @@
 1 General options
 2 Opciones generales
 1 Copy only newer files
-2 Copiar solo archivos actualizados
+2 Copiar solo archivos nuevos
 1 Update files into destination folder only if source files are more recent
 2 Actualización de los archivos en las carpeta de destino sólo si los archivos son más recientes
 1 Bidirectional synchronization
@@ -93,7 +93,7 @@
 1 Syncronize folders using more recent files from both, you will obtain two equal folders with the more recent files of both
 2 Sincronizar carpetas utilizando los archivos más recientes de ambos, va a obtener la igualdad de dos carpetas con los archivos más recientes de ambos
 1 Add date to destination folder
-2 Añadir fecha a la carpeta destino
+2 Añadir fecha carpeta destino
 1 Adds to the name of the destination folder current date and time (so "C:\Destination" becomes "C:\Destination 2004-12-10 22.30")
 2 Añadir a la carpeta de destino la fecha y hora actual (Ejemplo "C:\Destino" Se convierte en "C:\Destino 2007-09-10 18.30")
 1 Create folder if not exists
@@ -101,7 +101,7 @@
 1 If destination path does not exists it creates a new one
 2 Si la ruta de destino no existe, crea uno nuevo
 1 Save file timings too
-2 Guardar atributos de acceso a archivo
+2 Guardar atributos acceso
 1 Preview mode
 2 Modo Vista previa
 1 Only preview (do not write anything on HD)
@@ -135,9 +135,9 @@
 1 Reduces disk fragmentation deleting files before replacing them (replaced files will appear as added)
 2 Reduce la fragmentación del disco borrando archivos despues de remplazarlos (Los archivos remplazados pueden aparecer como añadidos)
 1 Ignore path errors
-2 Ignorar error de ruta  
+2 Ignorar error ruta  
 1 Adjust path drive
-2 Ajustar ruta de unidad
+2 Ajustar ruta unidad
 1 If a path (source or destination) does not exists it skips without any error message
 2 Si una ruta (fuente o destino) no existe, salta sin ningún mensaje de error
 1 Backup changes
@@ -209,7 +209,7 @@
 1 Deleted files
 2 Archivos borrados
 1 Ask before deleting files
-2 Preguntar antes de borrar archivos
+2 Preguntar antes de borrar 
 1 RealTime syncronization log
 2 Registro de sincronización en tiempo real
 1 Do not delete any file
@@ -223,7 +223,7 @@
 1 Added files
 2 Archivos añadidos
 1 Ask before adding files
-2 Preguntar antes de añadir archivos
+2 Preguntar antes de añadir
 1 Do not add any file
 2 No añadir ningún archivo
 1 Does not add any new file
@@ -231,7 +231,7 @@
 1 Replaced files
 2 Archivos remplazados
 1 Ask before replacing files
-2 Preguntar antes de remplazar los archivos
+2 Preguntar antes de remplazar 
 1 Do not replace any file
 2 No remplazar ningún archivo  
 1 Does not replace any file
@@ -248,8 +248,10 @@
 2 Usar nuevo algoritmo para la copia de ficheros (Experimental)
 1 Use old file copy algorithm (Stable)
 2 Usar antiguo algoritmo para la copia de ficheros (Estable)
+1 Verify
+2 Verificar
 1 no visual log
-2 No mostrar archivo de registro
+2 No archivo registro
 1 Real-Time sync activated...
 2 Sincronización en tiempo real activada...
 1 Copy creation and last modify time too
@@ -258,3 +260,17 @@
 2 Si hay cambios en la letra de unidad, ajusta las rutas en acuerdo
 1 If a path (source or destination) does not exists, skips it without any error message, ignore folder security check too
 2 Si no existe una ruta (origen o destino), se salta sin ningún mensaje de error, ignorar control de seguridad de carpetas
+1 Move files to destination
+2 Mover archivos a destino
+1 Save settings on exit
+2 Guardar al Salir
+1 Shutdown PC at the end
+2 Apagar PC al terminar
+1 Write log on disk
+2 Escribir log en disco
+1 Send log by Email
+2 Enviar log por email
+1 Play sound at the end
+2 Sonido aviso al concluir
+1 General Options
+2 Opciones Generales

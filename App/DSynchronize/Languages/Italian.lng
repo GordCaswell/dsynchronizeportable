@@ -151,7 +151,9 @@
 1 Verify
 2 Verifica
 1 Verify copy (can slow down sync)
-2 Verica la copia (puo' rallentare la sincronizzazione)
+2 Verifica la copia (puo' rallentare la sincronizzazione)
+1 No visual log
+2 Nessun log
 1 Backup changes
 2 Backup modifiche
 1 No Backup
@@ -256,3 +258,25 @@ Assicurarsi di aver fatto una sincronizzazione ''normale'' prima di abilitare la
 2 Mostra
 1 Close
 2 Chiudi
+1 Save settings on exit
+2 Salva settaggi in uscita
+1 Write log on disk
+2 Scrive log su disco
+1 Save log file "Dsynchronize.log" on disk
+2 Crea e salva su disco il file "Dsynchronize.log"
+1 Send log by Email
+2 Invia log via Email
+1 Shutdown PC at the end
+2 Spegne il PC al termine
+1 Move files to destination
+2 Sposta files nella destinazione
+1 Move files from Source to Destination (and NOT delete any file on Destination)
+2 Sposta i files dalla Sorgente alla Destinazione (e NON cancella alcun file nella destinazione)
+1 Test Sync (do not write anything on HD)
+2 Sincronizzazione di prova (non modifica nulla sul disco)
+1 Play sound at the end
+2 Suona alla fine
+1 Don't show deleted, added, replaced files on listboxes (this can speed up synchronizations with many files). If it's grayed, shows errors only
+2 Non visualizza nelle caselle i files eliminati, aggiunti e sostituiti (questa opzione velocizza la sincronizzazione che agisce su molti files). Se e' grigio, mostra solo gli errori
+1 if a path (source or destination) does not exist, skips it without any error message, ignore folder security check too
+2 se un percorso (nella sorgente o nella destinazione) non esiste, viene saltato senza messaggi di errore, ignora anche il controllo di sicurezza della cartella

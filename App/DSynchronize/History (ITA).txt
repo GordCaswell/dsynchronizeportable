@@ -1,6 +1,12 @@
 DSynchronize - History
 ~~~~~~~~~~~~~~~~~~~~~~
 
+v  2.31.3
+
+- Aggiunta la possibilità di verificare, prima della copia di ogni file, se nel drive di destinazione c'è abbastanza spazio, viene altresì verificato, per ogni file, che le sue dimensioni non superino il massimo consentito per il file system in uso nel drive di destinazione.
+- Fixato un bug che impediva la corretta visualizzazione dell'ultimo file copiato.
+- Fix e upgrade minori.
+
 v  2.31.2
 
 - Aggiunta la compatibilità con il DEP (Data Execution Prevention) che in precedenza impediva l'avvio del programma mandandolo in Crash.
