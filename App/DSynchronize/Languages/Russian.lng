@@ -1,17 +1,25 @@
 1 DSynchronize (Programmed by Dimio)
 2 DSynchronize (Разработчик Dimio)
 1 Sources
-2 Источники
-1 C:\Sample 1 Of Source Path
-2 C:\Пример исходного пути 1
+2 Источник
+1 C:\SourcePath
+2 C:\ИсходныйПуть
+1 "Right Сlick" to test paths and set filters,
+"Enter" to modify path, "DEL" to delete it,
+"PagUp" or "PagDn" to move it up or down
+2 "Правый клик" чтоб проверить пути и назначить фильтры,
+"Ввод" чтобы изменить путь, "DEL" удалить путь,
+"PagUp" или "PagDn" передвинуть вверх или вниз
 1 C:\Sample 2 Of Source Path
 2 C:\Пример исходного пути 2
-1 \\RemotePC\Sample 1 Of Destination Path
-2 \\УдаленныйПК\Пример целевого пути 1
+1 \\RemotePC\DestinationPath
+2 \\УдаленныйПК\ЦелевойПуть
 1 \\RemotePC\Sample 2 Of Destination Path
 2 \\УдаленныйПК\Пример целевого пути 2
 1 Destinations
-2 Цели
+2 Назначение
+1 Swap Paths (double click on arrows to swap selected source path with selected destination path)
+2 Обмен путей (дважды щелкните по стрелкам для обмена местами выбранных путей)
 1 Insert path and then press "Enter"
 2 Введите путь и нажмите "Enter"
 1 Press "Enter" to modify the path, "DEL" to delete it, "PagUp" or "PagDn" to move it up or down
@@ -20,7 +28,7 @@
 2 Фильтр
 1 DSynchronize Filter
 2 Фильтр DSynchronize
-1 Filter settings
+1 Settings
 2 Настройки фильтра
 1 Do not apply filters to folders
 2 Не применять фильтры к папкам
@@ -32,8 +40,8 @@
 2 Не включать подпапки в синхронизацию
 1 To use multiple filters you must separate them with ";", e.g. *.exe;*.txt;settings.ini;*.da?
 2 Для использования нескольких фильтров, разделяйте их ";" (например: *.exe;*.txt;settings.ini;*.da?)
-1 Filter Extended
-2 Расширенный фильтр
+1 Extended Settings
+2 Расширенные настройки
 1 Jan
 2 Янв
 1 May
@@ -54,12 +62,12 @@
 2 Исключить файлы, изменённые до:
 1 Cancel
 2 Отмена
-1 Select a folder: 
+1 Select a folder:
 2 Выберите папку:
 1 Browse
 2 Обзор
 1 &Add New...
-2 &Добавить новый...
+2 &Добавить путь...
 1 B&rowse...
 2 &Обзор...
 1 &Edit...
@@ -76,8 +84,8 @@
 2 &Удалить
 1 Test
 2 Тест
-1 Test selected paths
-2 Проверка выбранных путей
+1 Test paths (only checked paths will be verifyed)
+2 Протестирует пути (только отмеченные пути будут проверены)
 1 About
 2 ?
 1 DSynchronize About
@@ -87,81 +95,141 @@
 1 Make a Donation
 2 Взнос
 1 General options
-2 Опции
+2 Общие опции
+1 Preview mode
+2 Режим просмотра
+1 Test sync (do not write anything on HD)
+2 Тест синхронизации (без реальной записи файлов на жесткий диск)
+1 Create folder if not exists
+2 Создает папку, если ее нет
+1 If destination path does not exists it creates a new one
+2 Если путь назначения не существует, создает его
+1 Move files to destination
+2 Перемещать файлы
+1 Move files from Source to Destination (and NOT delete any file on Destination)
+2 Перемещает файлы от источника к назначению (и НЕ удаляет никаких файлов в назначении)
 1 Copy only newer files
 2 Только новые файлы
 1 Update files into destination folder only if source files are more recent
 2 Обновляет файлы в папке назначения, только если файлы источника более новые
-1 Bidirectional synchronization
-2 В обе стороны
-1 Syncronize folders using more recent files from both, you will obtain two equal folders with the more recent files of both
-2 Обе папки синхронизируются с более новыми файлами в обе стороны. Вы получите две одинаковые папки с более новыми файлами в обоих.
 1 Add date to destination folder
 2 Дата в папке назначения
 1 Adds to the name of the destination folder current date and time (so "C:\Destination" becomes "C:\Destination 2004-12-10 22.30")
 2 Добавляет к имени папки назначения дату и время (было "C:\Quelle" станет "C:\Quelle 2004-12-10 22.30")
-1 Create folder if not exists
-2 Создать папку если ее нет
-1 If destination path does not exists it creates a new one
-2 Если путь назначения не существует, создавать новый
-1 Save file timings too
-2 Сохр. штамп времени
+1 Save file/folder timings too
+2 Сохранять штамп времени
 1 Copy creation and last modify time too
-2 Копирует время создания и изменения файлов
-1 Preview mode
-2 Режим просмотра
-1 Only preview (do not write anything on HD)
-2 Только просмотр (без записи файлов на жесткий диск)
+2 Копирует время создания и последнего изменения файлов/папок
+1 Play sound at the end
+2 Звук по окончании
+1 Generate a sound advise at the end of syncronization
+2 Генерирует звук в конце синхронизации
 1 Exit at the end
 2 Выход в конце
 1 Closes the program at the end of sync
 2 Закроет программу после окончания синхронизации
-1 Shutdown at the end
-2 Выключать ПК
-1 Shutdown the system at the end of sync
-2 Выключить систему в конце синхронизации
-1 Save on exit
-2 Сохр.при выходе
+1 Save settings on exit
+2 Сохранять настройки
 1 Saves all current settings on exit (source and destination path too)
-2 Сохраняет все текущие настройки при выходе (пути источника и цели также)
-1 Save log
-2 Сохранять отчет
-1 Save log file
-2 Сохранение файла отчета
-1 Play sound when done
-2 Звук по окончании
-1 Generate a sound advise at the end of syncronization
-2 Генерирует звук в конце синхронизации
+2 Сохраняет все текущие настройки при выходе (пути источника и назначения также)
 1 Eject USB key at the end
 2 Безопасно извлечь USB
+1 Write log on disk
+2 Сохранять журнал
+1 Save log file "DSynchronize.log" on disk
+2 Сохранять файл журнала "DSynchronize.log" на диске
+1 Send log by Email
+2 Отчет по E-mail
+1 DSynchronize - Log by Email
+2 DSynchronize - отчет по E-mail
+1 Log Email Settings
+2 Настройки отправки E-mail
+1 Send To:
+2 Адресат:
+1 Email Sender:
+2 Отправитель:
+1 Email Sender (only if is different from "Send To")
+2 E-mail отправителя (только если отличается от "Адресат")
+1 Sender Password:
+2 Пароль:
+1 Email Sender Password
+2 Пароль отправителя E-mail
+1 SMTP Server:
+2 SMTP-сервер:
+1 SMTP Port:
+2 SMTP-порт:
+1 Send a screenshot in attachment
+2 Приложить скриншот
+1 Log only errors
+2 В журнале только ошибки
+1 Use fast copy algorithm
+2 "Быстрое" копирование
+1 Experimental, for test purpose only
+2 Экспериментально, только для тестировщиков
+1 Verify copy
+2 Проверка копии
+1 Verify copy (can slow down sync)
+2 Проверять копию (может замедлить синхронизацию)
+1 Reserved
+2 Зарезервировано
 1 Special options
 2 Специальные опции
+1 Bidirectional sync
+2 В обе стороны
+1 Syncronize folders using more recent files from both, you will obtain two equal folders with the more recent files of both
+2 Обе папки синхронизируются с более новыми файлами в обе стороны. Вы получите две одинаковые папки с более новыми файлами в обоих.
 1 Antifragmentation
-2 Дефрагмент.
+2 Дефрагментация
 1 Reduces disk fragmentation deleting files before replacing them (replaced files will appear as added)
 2 Уменьшает фрагментацию диска удалением файлов прежде, чем заменить их (замененные файлы появятся как добавленные)
 1 Ignore path errors
 2 Пропуск ошибок
 1 If a path (source or destination) does not exists it skips without any error message
-2 Если путь(источник или цель) не существует, пропускает этот шаг без сообщения об ошибке
+2 Если путь(источник или назначение) не существует, пропускает этот шаг без сообщения об ошибке
 1 Adjust path drive
 2 Коррекция пути
 1 If drive letter changes, adjust paths accordingly (please, select "Save on exit" option to allow saving volume serials)
-2 Если меняется буква диска - скорректировать путь в новом соответствии (необходимо так же выбрать "Хранить настройки")
-1 Verify
-2 Проверять
-1 Verify copy (can slow down sync)
-2 Проверка копии (может замедлить копирование)
-1 Backup changes
-2 Резервная копия
-1 No Backup
-2 Без резервирования
+2 Если меняется буква диска - скорректировать путь в новом соответствии (необходимо так же выбрать "Сохранять настройки")
+1 Pre calculates size
+2 Предрасчет размера
+1 Before to start sync, compute number of files to sync to show the progress bar
+2 Перед началом синхронизации, подсчитывается число синхронизируемых файлов, чтобы показать индикатор выполнения
+1 Check free space
+2 Проверять место
+1 Check free space before start file copy
+2 Проверять свободное место перед началом копирования
+1 Copy symbolic links
+2 Символич. ссылки
+1 Copy symbolic links as is
+2 Копирует символические ссылки, как есть
+1 Copy hard links
+2 Жесткие ссылки
+1 If it's possible try to recreate hard links too (all hard links of a file must be on same partition)
+2 Если возможно, пытаться воссоздать жесткие ссылки также (все жесткие ссылки должны быть на одной партиции)
+1 Timer options
+2 Установки таймера
 1 Timer sync
 2 Планировщик
+1 Realtime sync
+2 Реальное время
+1 Real-time synchronization
+2 Синхронизация в реальном времени
+1 Activation of the Real-Time Synchronization.
+2 Активация синхронизации в реальном времени
+1 Do you want that a Standard sync take place first before enabling the Real-Time sync?
+2 Хотите запускать "обычную" синхронизацию перед включением этой опции?
+1 RealTime sync active...
+2 Режим синхронизации реального времени включен.
+1 Realtime
+2 Реальное время
+1 If too long, clear list
+2 Если слишком долго, очищать список
 1 Set/enable timer
-2 Вкл. таймер
+2 Включить таймер
 1 DSynchronize Options
 2 Опции таймера
+1 Do a first sync immediatly (10 seconds after start).
+2 Немедленная синхронизация (через 10 секунд после запуска).
 1 Timer choice
 2 Выбор таймера
 1 Synchronize every
@@ -170,6 +238,8 @@
 2 Запускать в
 1 Days choice
 2 Выбор дней
+1 Do first sync at start time
+2 Делать первую синхронизацию при запуске
 1 Synchronize every day
 2 Каждый день
 1 Specify the month's days on which to synchronize
@@ -190,14 +260,8 @@
 2 Пятница
 1 Saturday
 2 Суббота
-1 Realtime sync
-2 Реальн. время
-1 Real-time syncronization (experimental)
-2 Синхронизация в реальном времени (экспериментально)
-1 Activation of the Real-Time Synchronization.
-2 Активация синхронизации в реальном времени
-1 Make sure to let a ''normal'' sync take place first before enabling the ''Real-Time sync''.
-2 Убедитесь, что сначала имеет место "обычная" синхронизация перед включением этой опции.
+1 Autostart
+2 Автозапуск
 1 Execute DSynchronize at system startup
 2 Автозапуск программы при старте системы
 1 Autostart as service...
@@ -208,14 +272,34 @@
 2 Запуск DSyncronize в виде службы
 1 Install Service
 2 Установить службу
+1 Uninstall Service
+2 Удалить службу
 1 Start Service
 2 Запустить службу
+1 Stop Service
+2 Остановить службу
+1 Account:
+2 Аккаунт:
+1 Password:
+2 Пароль:
+1 System Account
+2 Аккаунт системы
 1 Done
 2 Готово
+1 Shutdown PC at the end
+2 Выключать ПК
+1 Shutdown the system at the end of sync
+2 Выключить компьютер в конце синхронизации
+1 Backup changes
+2 Резервная копия
+1 No Backup
+2 Без резервирования
+1 Create, in destination path, n folders with name of file and date of sync to contain different versions of every file
+2 Создает в пути назначения n папок с именем файла и датой синхронизации, содержащих различные версии каждого файла
 1 Commands
 2 Команды
 1 Synchronize
-2 Синхронизация
+2 СТАРТ
 1 Pause
 2 Пауза
 1 Deleted files
@@ -229,7 +313,7 @@
 1 Move files
 2 Перемещать файлы
 1 Move files from Source to Destination
-2 Перемещает файлы от Источника к Цели
+2 Перемещает файлы от Источника к Назначению
 1 Added files
 2 Добавление файлов
 1 Ask before adding files
@@ -246,22 +330,14 @@
 2 Не заменять файлы
 1 Does not replace any file
 2 Не заменяет никаких файлов
-1 Synchronization complete
-2 Синхронизация завершена
+1 Sync complete.
+2 Синхронизация завершена.
 1 Help
 2 Помощь
 1 Show
 2 Показать
 1 Close
 2 Закрыть
-
-
-1 Account:
-2 Логин:
-1 Password:
-2 Пароль:
-1 Uninstall Service
-2 Удалить службу
 1 Stop
 2 Стоп
 1 Resume
@@ -270,34 +346,87 @@
 2 Синхронизация прервана
 1 Synchronization paused.
 2 Синхронизация приостановлена.
-1 Save settings on exit
-2 Хранить настройки
-1 No visual log
-2 Не отображать лог
+1 Synchronization resumed.
+2 Синхронизация возобновлена.
+1 DSynchronize Warning
+2 Предупреждение
+1 Another instance of ''DSynchronize.exe'' is running, press OK to exit.
+2 Запущен другой экземпляр программы, нажмите OK для выхода.
 1 If a path (source or destination) does not exists, skips it without any error message, ignore folder security check too
-2 Если папка (источник или целевая) не существует - пропустить это без сообщений об ошибках, так же игнорировать проверку прав доступа
+2 Если папка (источник или назначение) не существует - пропустить это без сообщений об ошибках, так же игнорировать проверку прав доступа
 1 Source paths verify
 2 Проверка пути источника
 1 Source path error:
 2 Ошибка пути источника
 1 Destination paths verify
-2 Проверка пути к цели
+2 Проверка пути к назначению
 1 Destination path error:
-2 Ошибка пути цели
+2 Ошибка пути назначения
 1 Error: source path not exists
 2 Ошибка: путь источника не существует
 1 Error: destination path not exists
-2 Ошибка: путь к цели не существует
-1 Activation of the Real-Time Synchronization.
-2 Включение режима синхронизации в реальном времени.
-1 Real-Time sync activated...
-2 Режим синхронизации реального времени включен.
+2 Ошибка: путь к назначению не существует
 1 Set idle priority
 2 Задать низший приоритет 
-1 Autostart
-2 Автозапуск
+1 Deleted/Errors:
+2 Удалено/Ошибок:
+1 Sync progress
+2 Индикатор синхронизации
+1 Single file copy progress
+2 Индикатор копирования одиночного файла
+1 Verify symbolic links
+2 Проверить символ. ссылки
+1 JOBS
+2 РАБОТЫ
+1 Select and manage Jobs
+2 Выбор и управление задачами
+1 Test Paths
+2 Проверить пути
+1 Set filter to include/exclude files or folders from sync
+2 Назначить фильтры для включения/исключения файлов или папок из синхронизации
+1 Play a sound at the end
+2 Звук по завершению
+1 Generate a sound advise at the end of synchronization
+2 Генерировать звук по завершению синхронизации
+1 Hidden and system files too
+2 Скрыт. и сис. файлы
+1 Sync hidden and system files too
+2 Синхронизировать так-же скрытые и системные файлы
+1 Sync file/folder timings too
+2 Врем. метки файла/дир.
+1 Sync creation and last modify time too
+2 Синхронизировать метки времени создания и изменения
+1 Verify byte to byte
+2 Сверять байт в байт
+1 Compare byte to byte (can slow down the sync)
+2 Сверять байт в байт (может замедлить синхронизацию)
+1 Show Jobs at start
+2 "Работы" при старте
+1 Folder Selection
+2 Выбор папок
+1 Selected path not existing...
+2 Выбранного пути нет...
+1 RESET
+2 СБРОС
+1 Filter Settings
+2 Настройка фильтров
+1 Filter Timings
+2 Фильтр по времени
+1 Reset Defaults
+2 По-умолчанию
+1 Job selection
+2 Выбор задачи
+1 INSTANT UPDATE
+2 Быстрое обновление
+1 New Job
+2 Новая задача
+1 Delete Job
+2 Удалить задачу
+1 Show at Start
+2 Показ при старте
+1 Activation of the Real-Time Syncрronization.
 
+Do you want that a Standard sync take place first before enabling the Real-Time sync?
+2 Активация синхронизации в реальном времени.
 
-
-
-
+Хотите ли вы, чтобы стандартная синхронизация прошла перед первым включением режима реального времени синхронизации?

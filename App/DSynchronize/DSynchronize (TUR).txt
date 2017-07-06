@@ -98,7 +98,7 @@ Komut satýrýnda kimi deðiþkenleri kullanabilirsiniz.
 /START 
 Bu komut son kaydedilen ayarlarla eþlemeyi hemen baþlatýr
 
-/MINIMIZED 
+/MINIMIZE 
 Bu komutla DSynchronize simge durumuna küçülerek baþlar. 
 
 /HIDDEN 

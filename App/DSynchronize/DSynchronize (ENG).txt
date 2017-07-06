@@ -82,7 +82,7 @@ It is possible to specify some parameters on the command line.
 /START 
 It immediately starts the synchronization (with the last saved options). 
 
-/MINIMIZED 
+/MINIMIZE 
 It starts DSynchronize minimized in the System Tray. 
 
 /HIDDEN 

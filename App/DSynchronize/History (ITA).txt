@@ -1,6 +1,163 @@
 DSynchronize - History
 ~~~~~~~~~~~~~~~~~~~~~~
 
+v  2.33.2
+
+- Aumentato lo spazio delle finestre coi percorsi.
+- Ora anche le schede SDHC vengono rimosse al termine della sincronizzazione se si spunta l'opzione apposita.
+- Fixati alcuni bug come il problema nell'aggiornamento su XP x86 e la conta errata dei files cancellati o aggiunti nei Tab.
+- Ritocchi al codice e all'UI.
+
+v  2.33.1
+
+- Fixati numerosi piccoli bug e segnalazioni.
+- L'opzione "Save on Exit" diventa "Not save on exit" e, se attiva, viene evidenziata.
+- Modificata l'UI e i controlli che visualizzano i percorsi da sincronizzare, in modo da assicurare una perfetta visualizzazione su tutte le versioni di Windows.
+- Ritocchi al codice e all'UI.
+
+v  2.32.9
+
+- Aggiunta la possibilità di specificare contemporaneamente sia i filtri di inclusione che quelli di esclusione. In questo modo è possibile includere tutti i file di un dato tipo ma escluderne comunque alcuni in particolare.
+- Fixata e migliorata l'opzione per mantenere le precedenti versioni dei file sincronizzati.
+- Ritocchi all'UI.
+- Fixati alcuni bug minori.
+
+v  2.32.8
+
+- Aggiunta un pannello nella barra di stato con l'ETA (tempo stimato di completamento).
+- Migliorato l'invio del Log per Email, ora è possibile utilizzare la criptazione SSL e vedere i caratteri della password, anche il campo mittente ora indica il nome del programma invece del semplice indirizzo email.
+- Inserito un segnalatore grafico aggiuntivo per le opzioni che più spesso generano confusione (come la Preview Sync e la Verify Byte to Byte).
+- Aggiunta un opzione per copiare, insieme ai file, anche gli ACL, cioè i permessi dell'NTFS.
+- Ora, se si è attivata l'apposita opzione, nella sincronizzazione in RealTime una modifica dell'ACL su di un file di origine determina la relativa modifica dell'ACL del file di destinazione.
+- Accorpate e integrate le funzioni di sincronizzazione temporizzata e di avvio come servizio.
+- Aggiunta la verifica, durante la sincronizzazione, del seriale dei drive, in modo che la sincronizzazione venga interrotta nel caso un drive venga sostituito da un altro con la stessa lettera di unità.
+- Migliorata la velocità di esecuzione delle sincronizzazioni.
+- Fixato un Bug che impedivano la sincronizzazione di cartelle contenenti più di 32.000 file.
+- Ora i Backup delle versioni precedenti dei file aggiornati vengono salvati in un'unica sottodirectory per cartella.
+- Aumentate le possibilità di scelta del numero dei backup, che ora si chiamano più comprensibilmente "versioni precedenti".
+- Ora il resoconto dei file cancellati, aggiunti e sostituiti, viene visualizzato in un sistema a schede che consente di visualizzarne uno alla volta, ma con un'ampiezza molto maggiore.
+- Fixato il bug del filtro delle date.
+- Ora se sono impostati dei filtri lo si vede direttamente dalla schermata principale senza dover aprire la sottofinestra dei filtri stessi.
+- Ridotta l'occupazione di risorse, in termini di cicli di CPU.
+- Quando si apre la pagina dei filtri, non è più necessario attendere il completamento della lettura dell'albero delle directory, infatti di esso vengono letti solo i primi due livelli di profondità e via così ogni volta che si espande un ramo.
+- Migliorato il sistema di ridimensionamento della finestra.
+- Aggiunto un Timer (che viene replicato anche nel file di Log) per cronometrare la durata delle sincronizzazioni.
+- Quando si avvia un'altra istanza col medesimo INI, invece di generare errori o di avviarsi, si limita a mettere in primo piano l'istanza già esistente.
+- Svariati altri fix e miglioramenti minori.
+
+v  2.32.7
+
+- Aggiunta l'opzione "Manage DST" che costituisce un workaround per il bug di windows dell'ora legale, per cui, al cambiare dell'ora legale, alcuni file apparivano come modificati e da sincronizzare anche se erano in realtà immutati.
+- Ora è possibile avviare più istanze del programma simultaneamente, a patto che si riferiscano a file INI differenti.
+- Ora, se il programma non dispone dei permessi per scrivere nella propria cartella, utilizza la cartella APPDATA per memorizzare i settaggi e l'eventuale file di Log.
+- Le frecce arancioni ora servono ad indicare se la sincronizzazione è standard o bidirezionale, la funzionalità di scambio percorsi rimane comunque disponibile nel menu contestuale.
+- Ora, se si avvia il programma con un vecchio file INI o specificandone uno, il programma si avvia in modalità old INI compatibile, il che determina la disattivazione di alcune funzionalità, come quella dei Jobs o quella del filtro selettivo, la cosa viene segnalata nella barra del titolo.
+- Sostituito il pulsante "TEST" con "FILTER", mentre la funzione di test è stata spostata nel menu contestuale (Right Click).
+- Numerosi Fix e aggiustamenti di minore importanza.
+
+v  2.32.6
+
+- Aggiunta la possibilità di creare dei Job, ognuno dei quali avrà i suoi percorsi di sincronizzazione e le sue impostazioni specifiche. Ciò elimina la necessità di creare svariati file INI ognuno con le sue opzioni specifiche di sincronizzazione. Viene comunque mantenuta la compatibilità coi vecchi file INI.
+- Aggiunta la possibilità di escludere dalla sincronizzazione una o più sotto cartelle singole tramite una visuale ad albero delle singole cartelle, questa funzione è stata inserita nella pagina dei filtri.
+- Ora se per qualche ragione la sincronizzazione in Real-Time non può essere abilitata in uno dei percorsi selezionati (ad esempio perchè quel dato network non supporta il monitoraggio), la cosa viene notificata all'utente.
+- Ora lo StandBy viene disattivato solo mentre il programma sta sincronizzando, poi viene riabilitato e in ogni caso non riguarda il monitor che quindi si spegnerà in base alle impostazioni di risparmio energetico.
+- Nella finestra dei Jobs è ora presente un interruttore che, se attivato, determina l'immediato caricamento delle impostazioni di un Job ove questo sia selezionato, per rendere le suddette impostazioni meglio visibili la finestra viene altresì resa semitrasparente.
+- Ora, se si avvia il programma con un vecchio file INI o specificandone uno, il programma si avvia in modalità old INI compatibile, il che determina la disattivazione di alcune funzionalità, come quella dei Jobs o quella del filtro selettivo, la cosa viene segnalata nella barra del titolo.
+- Svariati altri piccoli fix e miglioramenti.
+
+v  2.32.5
+
+- Aggiunta la possibilità di includere o escludere i file di sistema e i file nascosti dalla sincronizzazione.
+
+v  2.32.4
+
+- Ora il file INI è di per se un file Unicode, di conseguenza non è più necessaria la criptazione dei rispettivi Path, il che rende più semplice la manutenzione e l'automatizzazione degli stessi.
+
+v  2.32.3
+
+- Ora è consentito l'utilizzo di percorsi Unicode più lunghi di 256 caratteri (classico limite dei file ini).
+- Anche i filtri possono contenere più di 256 caratteri.
+- Grafica rinnovata (sono graditi i pareri in merito). In conseguenza dei risultati del sondaggio nel quale si chiedeva di scegliere tra la vecchia interfaccia ed una nuova interfaccia in stile Win10  (ha vinto la nuova interfaccia ma di poco), si è ritenuto di rinnovare la grafica di DSynchronize pur senza stravolgerne lo stile, in due parole è stato adottato uno stile intermedio.
+- Durante la sincronizzazione l'iconcina della TrayBar lampeggia, in questo modo si può sapere se la sincronizzazione sta avendo luogo.
+- Velocizzato il confronto byte to byte (che ora avviene tramite una routine ASM superveloce).
+- Ora, durante la sincronizzazione, lo StandBy viene disabilitato, in questo modo non si rischia che la procedura si blocchi a metà.
+- Ora vengono sincronizzati anche i nomi dei file e delle directory nel caso siano uguali ma non dal punto di vista delle maiuscole/minuscole.- Ora vengono sincronizzati anche gli attributi dei file e delle cartelle, anche se per il resto il file (o la cartella) sono identici.
+- Completamente rivisitata la procedura di analisi delle differenze tra sorgente e destinazione (ora dovrebbe essere molto più precisa).
+- Fix e miglioramenti vari.
+
+v  2.32.2
+
+- Ora, nel caso le scritte non stiano nelle rispettive caselle, vengono ridimensionate solo in orizzontale, mentre l'altezza rimane invariata.
+- Ora nei Path che è possibile sincronizzare è possibile utilizzare anche i caratteri Unicode (in verità era possibile anche prima, ma tali settaggi non potevano essere salvati, mentre adesso lo sono).
+- Ora la funzione Verifica effettua una comparazione byte-to-byte dei file da sincronizzare per assicurarsi che siano effettivamente diversi o meno (in questo modo, spuntando anche l'opzione Preview, si può utilizzare il programma anche solo per confrontare due directories).
+- Ora i Path e le opzioni dei Filtri vengono salvati nel file ini in forma codificata compressa.
+- Visto che alcune opzioni, come quella per copiare i link simbolici così come sono richiedono l'avvio come amministratore, nel caso il programma non sia stato avviato in quel modo, verrà inviata una notifica all'utente.
+- Migliorata l'opzione Eject USB Key.
+- Fix vari.
+
+v  2.32.1
+
+- Piena compatibilità Unicode anche nei percorsi da sincronizzare (ora il programma dovrebbe poter funzionare con qualsiasi versione straniera di Windows).
+- Ora, nella sincronizzazione in realtime, se si copia un file in una cartella che non esiste nel percorso di destinazione, esso verrà ricreato in automatico.
+- Possibilità di scegliere se copiare i link simbolici così come sono invece di copiare i relativi target.
+- Aggiunta la possibilità di specificare se i link simbolici debbano essere verificati o meno prima della copia (ad esempio, se un link simbolico relativo, una volta spostato, non è più valido, con questa opzione attiva, verrà copiato comunque, in caso contrario verrà copiato il file target).
+- Ora DSynchronize è in grado di supportare le junctions e i link simbolici che puntano alle cartelle.
+- Ora anche gli HardLinks sono supportati, ed è possibile scegliere di ricreare gli HardLinks come tali anche nel percorso di destinazione (FAT permettendo).
+- Creata un nuovo algoritmo di copiatura dei file più veloce del precedente (si può scegliere quale dei due usare).
+- Miglioramenti vari alle routine di sincronizzazione.
+- Ora, l'opzione per sincronizzare anche i timing dei file copiati si estende anche alle cartelle.
+- Introdotto un nuovo algoritmo sperimentale per la copia dei file che, volendo, è possibile utilizzare al posto di quello vecchio. Il nuovo algoritmo è più veloce, ma potrebbe presentare dei problemi sconosciuti, mentre quello vecchio è molto più collaudato e sicuro.
+- Ora i testi delle checkboxes, delle label e dei pulsanti sono in grado di auto-ridimensionarsi, nel caso il testo contenuto sia troppo grande per esservi contenuto tutto, ciò è utile soprattutto per l'applicazione dei Language Packs.
+- Modificate varie voci delle impostazioni del file INI, di conseguenza i vecchi file di impostazioni non saranno riutilizzabili con la nuova versione.
+- Svariati bugfix.
+
+v  2.32.0
+
+- Ora i filtri hanno validità anche con la sincronizzazione in RealTime.
+- Nella sincronizzazione in Real-Time se si modificano pochi file o anche uno solo, il processo delle modifiche memorizzate (che normalmente avviene ogni 5 secondi) verrà ritardato fino ad un massimo di 25 secondi, ciò serve a limitare i problemi provenienti dalle modifiche multiple e successive di uno stesso file di dimensioni considerevoli (che in caso contrario rischia di essere trasferito più volte inutilmente).
+- Ora è possibile specificare che vengano loggati solo gli errori, sia nelle finestre che nel log (il che può velocizzare la procedura nel caso ci siano numerosi file da sincronizzare).
+- Ora vengono sincronizzati anche gli attributi delle cartelle oltre a quelli dei file, ciò sia nella sincronizzazione standard che in quella in Real-Time.
+- Ora, anche il semplice cambio di un attributo di un file costituisce un evento da sincronizzare, sia nella sincronizzazione standard che in quella in Real-Time.
+- Nella sincronizzazione in Real-Time se si crea una sottocartella di un'altra sottocartella non esistente nelle destinazioni, nel path di destinazione verrà ricreato l'intero percorso.
+- Fix vari.
+
+v  2.31.9
+
+- Sono state aggiunte delle barre progresso per visualizzare a che punto siamo nella sincronizzazione e nella copia di ogni singolo file, nell'etichetta della barra progresso che visualizza la copia dei singoli file viene visualizzata la velocità di trasferimento dati.
+- Ora è possibile specificare se si preferisce che, all'avvio della sincronizzazione, la cartella di avvio venga esaminata e ne vengano contati i singoli file in modo da poter visualizzare in maniera precisa lo stato di avanzamento della sincronizzazione o no (se si specifica di no, verrà visualizzata la percentuale di avanzamento solo per le cartelle già sincronizzate in precedenza).
+- Aggiornamenti minori.
+- Fixati alcuni bug.
+
+v  2.31.8
+
+- Migliorata la sincronizzazione in Real-Time.
+- Aggiunta la possibilità di inserire, nella sincronizzazione temporizzata, una prima sincronizzazione all'avvio.
+- Migliorato il sistema dei contatori che ora tiene conto anche della differenza tra file aggiunti e file aggiornati.
+- Fix vari.
+
+v  2.31.7
+
+- Integrata la sincronizzazione in Real-Time con quella Temporizzata, ora è possibile attivare la sincronizzazione in tempo reale e, periodicamente, intervallarla con delle sincronizzazioni standard.
+- Ora, quando si attiva la Real-Time viene proposta una sincronizzazione Standard prima di procedere.
+- Aggiunta la linea di comando /AutoRealTime che effettua una sincronizzazione standard e poi abilita la sincronizzazione in RealTime.
+- Fixati alcuni bug minori.
+
+v  2.31.6
+
+- Migliorata la sincronizzazione in Real-Time che esce dalla fase di test per diventare una nuova opzione ufficiale.
+
+v  2.31.5
+ 
+- Fixato il bug che impediva l'avvio temporizzato ciclico della sincronizzazione se avviato come servizio.
+- Fixati altri bug minori.
+- Cambiata l'icona.
+
+v  2.31.4
+
+- UI migliorata e fixati vari bug.
+- Aggiunta la possibilità di verificare, prima di iniziare la copia di ogni file, se il drive di destinazione dispone del necessario spazio e/o se il File System supporta la dimensione del file stesso (ad esempio, la FAT non supporta file più grandi di 2 GB, mentre la FAT32 non può contenere file più grandi di 4 GB l'uno).
+- Fix e upgrade minori.
+
 v  2.31.3
 
 - Aggiunta la possibilità di verificare, prima della copia di ogni file, se nel drive di destinazione c'è abbastanza spazio, viene altresì verificato, per ogni file, che le sue dimensioni non superino il massimo consentito per il file system in uso nel drive di destinazione.
@@ -29,7 +186,7 @@ v  2.30.8
 
 v  2.30.7
 
-- Ora se si cerca di impostare l'avvio automatico di DSpeech e questo non riesce lo fa sapere e consiglia anche come risolvere il problema.
+- Ora se si cerca di impostare l'avvio automatico e questo non riesce lo fa sapere e consiglia anche come risolvere il problema.
 - Fixato il problema che bloccava lo Shutdown di Windows con DSynchronize in esecuzione.
 - Aggiunta un'opzione che consente di verificare tutti i file copiati per assicurarsi che siano identici all'originale (al prezzo, naturalmente, di un certo rallentamento dell'intera procedura). Questa funzionalità, da più parti richiestami, non è in realtà utile più di tanto, perchè al giorno d'oggi la procedura di copia è sicura praticamente al 100%, l'unica utilita la si potrebbe ravvisare per l'identificazione di supporti di memorizzazione danneggiati.
 - Ritocchi all'UI.

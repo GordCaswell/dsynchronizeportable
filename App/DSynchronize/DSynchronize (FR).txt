@@ -89,7 +89,7 @@ Il est possible de spécifier certains paramètres en ligne de commande :
 /START 
 La synchronisation débute immédiatement (avec les dernières options sauvegardées). 
 
-/MINIMIZED 
+/MINIMIZE 
 Dsynchronise se lance minimisé dans la barre d'état du système. 
 
 /HIDDEN 

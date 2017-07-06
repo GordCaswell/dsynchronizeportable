@@ -119,7 +119,7 @@ Volendo è possibile specificare dei parametri nella linea di comando.
 /START
 Avvia immediatamente la sincronizzazione (con le ultime opzioni salvate).
 
-/MINIMIZED
+/MINIMIZE
 Avvia DSynchronize minimizzato nella TrayBar.
 
 /HIDDEN
@@ -127,6 +127,12 @@ Avvia DSynchronize in totale background e cioè senza nemmeno visualizzare l'icon
 
 /NOSECURITYCHECK
 Prima di effettuare la sincronizzazione, non controlla se si possiedono o meno i permessi di lettura/scrittura sulle cartelle. Infatti, In qualche raro caso, sembra che il security check impedisca la sincronizzazione anche su cartelle sulle quali si possiedono tali permessi, per cui, selezionare l'opzione suddetta, consente di operare normalmente anche in quei particolari casi.
+
+/NOMONITORCHECK
+Avvia il programma anche se la risoluzione è inferiore a 1024x768.
+
+/AUTOREALTIME
+Avvia DSynchronize minimizzato, effettua una sincronizzazione standard e poi attiva la sincronizzazione in RealTime.
 
 /NOMEFILE.INI
 Utilizza uno specifico file INI per effettuare la sincronizzazione.
@@ -142,6 +148,13 @@ SKYPE  : katafratto
 ICQ    : 145633952
 E-MAIL : cyberdimio@gmail.com
 HOME   : http://dimio.altervista.org/
+
+
+
+BETA TESTER:
+~~~~~~~~~~~~
+Umberto Barbella
+E-MAIL : umbertob67@gmail.com
 
 
 
