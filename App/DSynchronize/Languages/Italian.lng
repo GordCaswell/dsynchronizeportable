@@ -1,4 +1,4 @@
-# Rel. 2.32.7 - Italian translation by Taf® - last update: 06-09-2016 - 18:49
+# Rel. 2.33.2 - Italian translation by Taf® - last update: 27-06-2017 - 14:01
 1 DSynchronize (Programmed by Dimio)
 2 DSynchronize (Realizzato da Dimio)
 1 DSynchronize - Old INI file loaded: some features will not be available
@@ -111,10 +111,14 @@
 2 Fa una Donazione
 1 General options
 2 Opzioni generali
-1 Preview mode
-2 Anteprima di test
-1 Test sync (do not write anything on HD)
-2 Sincronizzazione di test (non scrive nulla sul disco)
+1 Preview sync
+2 Anteprima sincronizzazione
+1 Does not writes nor changes anything on disk
+2 Non scrive e non cambia nulla sul disco
+1 Not save settings on exit
+2 Non salva i settaggi in uscita
+1 Deny to save all current settings on exit
+2 Nega il salvataggio in uscita dei settaggi correnti
 1 Create folder if not exists
 2 Crea cartella se non esiste
 1 If destination path does not exists it creates a new one
@@ -127,16 +131,16 @@
 2 Copia solo i file più nuovi
 1 Update files into destination folder only if source files are more recent
 2 Aggiorna i file nella cartella destinazione solo se i file sorgenti sono più recenti
-1 Add date to destination folder
-2 Agg. data cart. destinazione
+1 Add date to folder
+2 Aggiunge data alla cartella
 1 Adds to the name of the destination folder current date and time (so "C:\Destination" becomes "C:\Destination 2004-12-10 22.30")
 2 Aggiunge al nome della cartella destinazione data ed ora corrente (così "C:\Destinazione" diventa "C:\Destinazione 2007-09-10 18.30")
 1 Sync file/folder timings too
 2 Salva data/ora di file/cartella
 1 Sync creation and last modify time too
 2 Sincronizza anche i dati di creazione e ultima modifica di file/cartella
-1 Play a sound at the end
-2 Emetti suono quando finito
+1 Sound advise at the end
+2 Avviso sonoro quando finito
 1 Generate a sound advise at the end of synchronization
 2 Genera un suono di avviso al termine della sincronizzazione
 1 Exit at the end
@@ -209,6 +213,10 @@
 2 Copia links fisici
 1 If it's possible try to recreate hard links too (all hard links of a file must be on same partition)
 2 Se e' possibile prova a ricreare anche i link fisici (tutti i link fisici di un file devono essere slla stessa partizione)
+1 Copy ACL
+2 Copia ACL in NTFS
+1 Copy ACL (Access Control List) on NTFS
+2 Copia la Access Control Lisy su partizioni NTFS
 1 Acknowledge DST
 2 Rileva Ora Legale
 1 If filetime is different only by DST (daylight saving time), skips synchronising
@@ -301,6 +309,16 @@ Vuoi che venga effettuata una sincronizzazione standard prima di attivare quella
 2 Spegni il PC alla fine
 1 Shutdown the system at the end of sync
 2 Spegni il sistema al termine della sincronizzazione
+1 Maintain old versions
+2 Mantieni versioni datate
+1 When a file is replaced, create, in destination path, a folder with the old file.
+2 Quando un file viene sostituito, crea, nella cartella di destinazione, una sottocartella con il vecchio file.
+1 No old versions
+2 Nessuna versione datata
+1 old versions
+2 Versioni datate
+1 Unlimited old versions
+2 Versioni datate illimitate
 1 DSyncronize Start As Service
 2 Avvio di DSyncronize come servizio
 1 Install Service
@@ -309,12 +327,6 @@ Vuoi che venga effettuata una sincronizzazione standard prima di attivare quella
 2 Avvia servizio
 1 Done
 2 FATTO
-1 Backup changes
-2 Backup delle modifiche
-1 Create, in destination path, n folders with name of file and date of sync to contain different versions of every file
-2 Crea, nella cartella di destinazione, "n" cartelle con il nome del file e la data, per raccogliere le diverse versioni di ogni file
-1 No Backup
-2 Nessun backup
 1 Commands
 2 Comandi
 1 Synchronize
@@ -365,3 +377,49 @@ Vuoi che venga effettuata una sincronizzazione standard prima di attivare quella
 2 Chiudi
 1 You have to start DSynchronize as Administrator to use this option.
 2 Devi avviare DSynchronize come amministratore per utilizzare questa opzione.
+1 Change ini file...
+2 Cambia file ini...
+1 Exit without Save Settings
+2 Esci senza salvare i settaggi
+1 Exit
+2 Esci
+1 Tools
+2 Opzioni
+1 Show Log File
+2 Mostra file di Log
+1 Erase Log File
+2 cancella file di Log
+1 Test all Paths
+2 Testa tutti i percorsi
+1 Find Ini File
+2 Trova file Ini
+1 Home Page Web
+2 Pagina Web DSynchronize
+1 Support with donation...
+2 Supporta con una donazione...
+1 About DSynchronize
+2 Info su DSynchronize
+1 Deleted
+2 Cancellati
+1 Added
+2 Aggiunti
+1 Replaced
+2 Sostituiti
+1 DSynchronize Scheduler
+2 Programmatore di DSynchronize
+1 Main Selection
+2 Selezione Principale
+1 RealTime Sync Enabled
+2 Sincronizzazione in Tempo Reale Abilitata
+1 Timer Sync Enabled
+2 Sincronizzazione con Timer abilitata
+1 Do a first sync immediatly (10 seconds after start).
+2 Fai una sincronizzazione immediata (10 secondi dopo l'avvio).
+1 Day Selection
+2 Selezione giornata
+1 Start as Service
+2 Avvia come Servizio
+1 System Account
+2 Account di Sistema
+1 If they are too many items, reset list
+2 Se ci sono troppi items, resetta la lista
