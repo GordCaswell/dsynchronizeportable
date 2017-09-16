@@ -1,12 +1,64 @@
 DSynchronize - History
 ~~~~~~~~~~~~~~~~~~~~~~
 
+v  2.34.1
+
+- Inserita una voce di menu per salvare direttamente i settaggi, senza dovere uscire dal programma per salvarli.
+- Migliorata la grafica.
+- Fixati alcuni problemi riguardanti l'opzione per la minimizzazione del programma tramite il pulsante di chiusura.
+- Fix e modifiche minori.
+
+v  2.33.9
+
+- Aggiunta la funzionalità "Start at drive plug-in" che consente di avviare la sincronizzazione quando si inserisce una data periferica (chiavetta USB, HD esterno, etc).
+- Fix e modifiche minori.
+
+v  2.33.8
+
+- Aggiunta la possibilità di generare file di log multipli con la relativa data e ora contenuta nel nome del file stesso.
+- Aggiunte alcune voci dei menu contestuali per semplificare alcune operazioni.
+- Modificati alcuni algoritmi interni riguardanti la visualizzazione dei TAB.
+- Fixati alcuni problemi di compatibilità con Win10.
+
+v  2.33.7
+
+- Ora nelle finestre coi log, ogni percorso è associato ad un'icona che consente di identificare alla svelta l'esito delle operazioni, ciò sostituisce il precedente sistema basato sull'uso dei caratteri Bold.
+- Fixati numerosi piccoli bug che mi sono stati segnalati, alcuni introdotti con le recenti versioni e altri presenti da più tempo.
+
+v  2.33.6
+
+- L'opzione per la copia degli ACL (i permessi di NTFS) è stata estesa in modo da funzionare anche con le Cartelle.
+- Fix e modifiche minori.
+
+v  2.33.5
+
+- Aggiunta la possibilità di duplicare un Job con tutte le sue impostazioni.
+- Ora, se si verificano degli errori, questi vengono visualizzati in grassetto, in modo che siano facilmente identificabili.
+- Aggiunta la possibilità di spostare in alto e in basso i vari Jobs nella apposita schermata.
+- Inserita un'opzione per memorizzare le dimensioni della finestra.
+- Fixati alcuni bug introdotti con le ultime versioni.
+
+v  2.33.4
+
+- Velocizzata sensibilmente l'esecuzione della sincronizzazione quando il programma è minimizzato.
+- Aumentata la velocità di sincronizzazione ed eliminato lo sfarfallio dei TAB (per via di un bug venivano aggiornati di continuo anche se non necessario).
+- Inserita l'opzione SoundFX per generare dei suoni durante l'esecuzione che permettono di capire cosa sta facendo il programma anche senza vedere lo schermo.
+- Fix e modifiche minori.
+
+v  2.33.3
+
+- Svariati miglioramenti grafici.
+- Ora, in caso di errore nella listbox dei file copiati o aggiornati, viene mostrata una descrizione esaustiva del problema.
+- Fix e modifiche minori.
+
 v  2.33.2
 
-- Aumentato lo spazio delle finestre coi percorsi.
+- Aggiunta la barra di menu classica con in particolare l'opzione per trovare il file INI (cosa utile per trasferire i settaggi da un PC ad un altro).
+- L'algoritmo di copia standard ora è provvisto di una cache a regolazione automatica da 100 KB a 10 MB in tempo reale, il che gli consente di sfiorare le prestazioni velocistiche dell'algoritmo fast.
+- Aumentato lo spazio dedicato alle finestre coi percorsi di origine e destinazione.
 - Ora anche le schede SDHC vengono rimosse al termine della sincronizzazione se si spunta l'opzione apposita.
-- Fixati alcuni bug come il problema nell'aggiornamento su XP x86 e la conta errata dei files cancellati o aggiunti nei Tab.
-- Ritocchi al codice e all'UI.
+- Fixati alcuni bug come il problema nell'aggiornamento su XP x86 e la conta errata dei file cancellati o aggiunti nei Tab.
+- Bugfix piccoli e medi, miglioramenti vari degli algoritmi principali di copia/trasferimento dei files e anche dell'UI.
 
 v  2.33.1
 

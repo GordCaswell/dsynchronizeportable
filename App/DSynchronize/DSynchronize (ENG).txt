@@ -89,7 +89,7 @@ It starts DSynchronize minimized in the System Tray.
 It starts DSynchronize in the background without even displaying the icon in the Task Bar. 
 
 /NOSECURITYCHECK 
-Before effecting the synchronization, it doesn't check if they are possessed or I lead the permissions of lettura/scrittura on the briefcases. In fact, In some rare case, it seems that the security check also prevents the synchronization on briefcases on which such permissions are possessed, for which, to select the option aforesaid, it allows to also operate normally in that particular cases. 
+Before effecting the synchronization, it doesn't check if they are possessed or I lead the permissions of read/write on the briefcases. In fact, In some rare case, it seems that the security check also prevents the synchronization on briefcases on which such permissions are possessed, for which, to select the option aforesaid, it allows to also operate normally in that particular cases. 
 
 /SOMEFILE.INI 
 It uses a specific file INI to control the synchronization. This file must be on same directory of DSynchronize.
