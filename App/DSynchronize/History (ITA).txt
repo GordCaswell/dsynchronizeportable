@@ -1,21 +1,12 @@
 DSynchronize - History
 ~~~~~~~~~~~~~~~~~~~~~~
 
-v  2.33.3
-
-- Svariati miglioramenti grafici.
-- Inserita l'opzione SoundFX per generare dei suoni durante l'esecuzione che permettono di capire cosa sta facendo il programma anche senza vedere lo schermo.
-- Ora, in caso di errore nella listbox dei file copiati o aggiornati, viene mostrata una descrizione esaustiva del problema.
-- Fix e modifiche minori.
-
 v  2.33.2
 
-- Aggiunta la barra di menu classica con in particolare l'opzione per trovare il file INI (cosa utile per trasferire i settaggi da un PC ad un altro).
-- L'algoritmo di copia standard ora è provvisto di una cache a regolazione automatica da 100 KB a 10 MB in tempo reale, il che gli consente di sfiorare le prestazioni velocistiche dell'algoritmo fast.
-- Aumentato lo spazio dedicato alle finestre coi percorsi di origine e destinazione.
+- Aumentato lo spazio delle finestre coi percorsi.
 - Ora anche le schede SDHC vengono rimosse al termine della sincronizzazione se si spunta l'opzione apposita.
-- Fixati alcuni bug come il problema nell'aggiornamento su XP x86 e la conta errata dei file cancellati o aggiunti nei Tab.
-- Bugfix piccoli e medi, miglioramenti vari degli algoritmi principali di copia/trasferimento dei files e anche dell'UI.
+- Fixati alcuni bug come il problema nell'aggiornamento su XP x86 e la conta errata dei files cancellati o aggiunti nei Tab.
+- Ritocchi al codice e all'UI.
 
 v  2.33.1
 
